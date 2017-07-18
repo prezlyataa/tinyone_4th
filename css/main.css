@@ -121,8 +121,14 @@ body,
 
 .navbar-header .navbar-brand,
 .navbar-collapse .navbar-nav li a,
-.fade-carousel .item .left_part h3{
+.fade-carousel .item .left_part h3,
+.head_text {
     font-weight: bold;
+}
+
+.head_text {
+    font-size: 32px;
+    padding-bottom: 20px;
 }
 
 .simple_text {
@@ -247,7 +253,7 @@ body,
 .fade-carousel .slides .slide-1,
 .fade-carousel .slides .slide-2,
 .fade-carousel .slides .slide-3 {
-    height: 100vh;
+    height: 650px;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -264,6 +270,50 @@ body,
 @media screen and (max-width: 640px){
     .hero h1 { font-size: 4em; }
 }
+
+
+
+/*   Features   */
+
+
+.features {
+    padding-top: 115px;
+    background-color: #fff;
+    padding-bottom: 75px;
+}
+
+.intro_text {
+    text-align: center;
+    padding-bottom: 85px;
+}
+
+.prod {
+    padding-bottom: 75px;
+}
+
+.prod_text h4 {
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.prod_img,
+.prod_text {
+    display: inline-block;
+}
+
+.prod_img {
+    width: 25%;
+}
+
+.prod_text {
+    width: 75%;
+    float: right;
+}
+
+
+
+
+
 
 
 /*   Media squares   */
